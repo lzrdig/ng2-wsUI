@@ -1,0 +1,44 @@
+<!--<nav>
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">Weather Station</a>
+        </div>
+        <ul class="nav navbar-nav" routerLinkActive="active">
+            <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" routerLink="datadisplay">Charts</a></li>            
+            <li class="nav-item"><a class="nav-link" routerLink="about">About</a></li>
+        </ul>
+    </div>
+</nav>-->
+
+  <!--<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Angular2 Chartist</a>
+      </div>
+      <ul class="nav navbar-nav hidden-xs">
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="https://github.com/paradox41/angular2-chartist#installation">Installation</a></li>
+      </ul>
+    </div>
+  </nav>-->
+
+
+<h1>{{pwsTitle}}</h1>
+
+<!--<nav>
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">Weather Station</a>
+        </div>
+        <ul class="nav navbar-nav" routerLinkActive="active">
+            <li class="nav-item"><a routerLink="/home/start" routerLinkActive="active">Home</a></li>
+            <li class="nav-item"><a routerLink="/datadisplay" routerLinkActive="active">Charts</a></li> 
+        </ul>
+    </div>
+</nav>-->
+<nav>
+    <a routerLink="/home/start" routerLinkActive="active">Home</a>
+    <a routerLink="/datadisplay/datadisplay" routerLinkActive="active">Charts</a>
+</nav>
+<router-outlet></router-outlet>
