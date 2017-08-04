@@ -3,7 +3,6 @@ import { Router } from '@angular/router';
 
 
 @Component({
-    moduleId: module.id,
     selector: 'start',
     templateUrl: 'app/home/start.html',
 })

@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import {AppRoutingModule} from './app-routing.module';
 import {ChartistModule} from './chart/chart.module'
 
-import {PwsAppComponent} from './pws-app.component'
+import {PwsAppComponent} from './app.component'
 import {StartComponent} from './home/start.component'
 import {DataDisplayComponent} from './datadisplay/datadisplay.component'
 
