@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 
 import { ChartistModule } from './shared/chart/chart.module'
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './components/root/app.component';
 import { HomeComponent} from './components/home/home.component'
 import { ContactComponent} from './components/contact/contact.component'
 import { ProductComponent} from './components/product/product.component'
