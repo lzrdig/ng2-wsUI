@@ -50,9 +50,9 @@ export interface Chart {
 }
 
 @Component({
-  moduleId: module.id,
+  //moduleId: module.id,
   selector:'datadisplay',
-  templateUrl: './datadisplay.component.html'
+  templateUrl: './app/datadisplay/datadisplay.component.html'
 })
 export class DataDisplayComponent{
   chart: Chart;

@@ -51,9 +51,9 @@ var DataDisplayComponent = (function () {
     }
     DataDisplayComponent = __decorate([
         core_1.Component({
-            moduleId: module.id,
+            //moduleId: module.id,
             selector: 'datadisplay',
-            templateUrl: './datadisplay.component.html'
+            templateUrl: './app/datadisplay/datadisplay.component.html'
         }),
         __metadata("design:paramtypes", [])
     ], DataDisplayComponent);
