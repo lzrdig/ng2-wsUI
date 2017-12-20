@@ -1,16 +1,27 @@
 <div>
-  <!-- <style type="text/css">
-    x-chartist {
-      display: block;
-      height: 300px;
-    }
-  </style>         -->
-  <x-chartist
-    class="col-md-6"
-    [data]="chart.data"
-    [type]="chart.type"
-    [options]="chart.options"
-    [responsiveOptions]="chart.responsiveOptions"
-    [events]="chart.events">
-  </x-chartist>
+  <table>
+    <body>
+      <tr>
+        <td width="50%">
+          <cur-readings></cur-readings>
+        </td>
+        <td width="50%">
+          <!-- <style type="text/css">
+            x-chartist {
+              display: block;
+              height: 300px;
+            }
+          </style>         -->
+          <x-chartist
+            class="col-md-10"
+            [data]="chart.data"
+            [type]="chart.type"
+            [options]="chart.options"
+            [responsiveOptions]="chart.responsiveOptions"
+            [events]="chart.events">
+          </x-chartist>          
+        </td>
+      </tr>
+    </body>
+  </table>
 </div>
