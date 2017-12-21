@@ -1,9 +1,7 @@
 # ng2-wsUI
-Angular2 client side UI for weather station
+Angular4 client side UI for weather station
 
-The intent is to show two ways of loading are supportedL SystemJS and Webpack.
-Currently, the use of SystemJS loader has been implemented and tested.
-
-Webpack loading has some differences that "clash" with the way that systemjs is working.
-
-For example, spcifying moduleId for components is helpful for SystemJS for path location. Webpack does it automatically.
+AngularCLI is used (with embedded Webpack).
+Some simplistic features have implemented to display data from a FineOffset weather station.
+History data is to be displayed through the use of Chartist.
+Currently no async data retrieval is in place. The data provisioning is emulated.
