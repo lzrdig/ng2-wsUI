@@ -8,6 +8,8 @@ import {
   ChartistComponent
 } from '../../shared/chart/chart.component';
 
+import { ReadingsComponent } from '../readings/readings.component'
+
 // declare var require: any;
 
 // const data: any = require('../assets/data/chartdata.json');
